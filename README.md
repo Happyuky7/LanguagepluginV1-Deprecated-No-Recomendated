@@ -28,6 +28,15 @@ Servers JARS: Spigot, Paper.
 + Maven API
 + Languages Menus
 
+## COMPILE
+
+```maven
+git clone https://github.com/HappyRogelio7/LanguagepluginV1.git
+
+mvn install
+
+mvn package
+```
 ## API
 
 **Using API:**
