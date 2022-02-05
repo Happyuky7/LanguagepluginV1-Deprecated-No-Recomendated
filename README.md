@@ -95,7 +95,7 @@ public class ExampleStringCMD implements CommandExecutor {
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (sender instanceof Player){
+        if (!sender instanceof Player){
 
             Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "This command can only be executed by a player.");
             return false;
