@@ -35,6 +35,7 @@ public class FileManager extends YamlConfiguration {
         this(plugin, fileName, fileExtension, plugin.getDataFolder());
     }
 
+
     public JavaPlugin getPlugin() {
         return this.plugin;
     }

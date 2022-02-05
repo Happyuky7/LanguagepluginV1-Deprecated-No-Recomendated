@@ -1,6 +1,7 @@
 package com.github.happyrogelio7.languagepluginv1.managers;
 
 import com.github.happyrogelio7.languagepluginv1.LanguagepluginV1;
+import com.github.happyrogelio7.languagepluginv1.filemanager.FileManager;
 import com.github.happyrogelio7.languagepluginv1.utils.MessagesUtils;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -47,16 +48,16 @@ public class LanguagesManager {
 
     public static String sendMsgLangString(Player player, String path, String pluginname){
         UUID uuid = player.getUniqueId();
-        File file1 = new File("plugins/"+pluginname+"/lang/"+"EN_us"+".yml");
+        File file1 = new File("plugins//"+pluginname+"//lang//"+"EN_us"+".yml");
         YamlConfiguration fileload1 = YamlConfiguration.loadConfiguration(file1);
         ////////////////
-        File file2 = new File("plugins/"+pluginname+"/lang/"+"ES_es"+".yml");
+        File file2 = new File("plugins//"+pluginname+"//lang//"+"ES_es"+".yml");
         YamlConfiguration fileload2 = YamlConfiguration.loadConfiguration(file2);
         ////////////////
-        File file3 = new File("plugins/"+pluginname+"/lang/"+"ES_latam"+".yml");
+        File file3 = new File("plugins//"+pluginname+"//lang//"+"ES_latam"+".yml");
         YamlConfiguration fileload3 = YamlConfiguration.loadConfiguration(file3);
         ////////////////
-        File file4 = new File("plugins/"+pluginname+"//lang/"+"JP_ja"+".yml");
+        File file4 = new File("plugins//"+pluginname+"//lang//"+"JP_ja"+".yml");
         YamlConfiguration fileload4 = YamlConfiguration.loadConfiguration(file4);
         if (LanguagesManager.getlanguage(player) == "EN_us"){
             return MessagesUtils.getMsgColor(fileload1.getString(path));

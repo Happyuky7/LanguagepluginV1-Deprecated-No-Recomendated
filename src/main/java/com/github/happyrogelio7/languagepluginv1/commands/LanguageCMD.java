@@ -22,12 +22,12 @@ public class LanguageCMD implements CommandExecutor {
         Player player = (Player)sender;
         if (args.length > 0) {
             if (args[0].equalsIgnoreCase("test")) {
-                player.sendMessage(LanguagesManager.sendMsgLangString(player, "lang.test", "LanguagePlugin1122V1"));
+                player.sendMessage(LanguagesManager.sendMsgLangString(player, "lang.test", plugin.nameplugin1));
                 return true;
             }
             if (args[0].equalsIgnoreCase("testlist")) {
                 List<String> lore1 = new ArrayList<>();
-                ArrayList<String> lore2 = (ArrayList<String>)LanguagesManager.sendMsgLangStringList(player, "lang.testlist", "LanguagePlugin1122V1");
+                ArrayList<String> lore2 = (ArrayList<String>)LanguagesManager.sendMsgLangStringList(player, "lang.testlist", plugin.nameplugin1);
                 for (String lorelist1 : lore2)
                     lore1.add(lorelist1);
                 player.sendMessage(String.join("\n", lore1));
