@@ -51,7 +51,7 @@ public class LanguageCMD implements CommandExecutor {
                 player.sendMessage(MessagesUtils.getMsgColor("&r "));
                 player.sendMessage(MessagesUtils.getMsgColor("&a Language &7| &3Info:"));
                 player.sendMessage(MessagesUtils.getMsgColor("&r "));
-                player.sendMessage(MessagesUtils.getMsgColor("&f * &9version: &f1.0.1-SNAPSHOT"));
+                player.sendMessage(MessagesUtils.getMsgColor("&f * &9version: &f1.0.8-SNAPSHOT"));
                 player.sendMessage(MessagesUtils.getMsgColor("&f * &aCreated: &fHappyRogelio7"));
                 player.sendMessage(MessagesUtils.getMsgColor("&f * &dGitHub: &fhttps://github.com/HappyRogelio7"));
                 player.sendMessage(MessagesUtils.getMsgColor("&f * &6Website: &fhttps://happyrogelio7.github.io/index.html"));
