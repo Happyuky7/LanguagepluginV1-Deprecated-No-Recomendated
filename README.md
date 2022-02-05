@@ -9,7 +9,7 @@ Plugin Version: 1.0.1
 
 Base Version MC: 1.12.2
 
-JDK: 17
+JDK: 11
 
 Servers JARS: Spigot, Paper.
 
