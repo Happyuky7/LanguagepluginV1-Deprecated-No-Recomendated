@@ -1,0 +1,9 @@
+lang:
+  general:
+    prefix: "&8[&aLangs&8]&r"
+    setlangerror: "%prefix% &3使用する: &f/setlang <language> &7| リスト言語 &f/language list"
+  select: "%prefix% &a言語が次のように変更されました&f: 日本語&7(&3日本&7)&f."
+  test: "言語テストメッセージ：日本の日本"
+  testlist:
+    - "prueba"
+    - "list japanese"

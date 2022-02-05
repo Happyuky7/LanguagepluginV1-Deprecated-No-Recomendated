@@ -1,0 +1,9 @@
+lang:
+  general:
+    prefix: "&8[&aLangs&8]&r"
+    setlangerror: "%prefix% &3Using: &f/setlang <language> &7| Lista idiomas &f/language list"
+  select: "%prefix% &aTu idioma fue cambiado a&f: Español&7(&3LATAM&7)&f."
+  test: "Mensaje de prueba del idioma: Español latam"
+  testlist:
+    - "prueba"
+    - "list latam"

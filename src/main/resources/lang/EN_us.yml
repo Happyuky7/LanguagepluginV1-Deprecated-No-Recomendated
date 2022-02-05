@@ -1,0 +1,9 @@
+lang:
+  general:
+    prefix: "&8[&aLangs&8]&r"
+    setlangerror: "%prefix% &3Using: &f/setlang <language> &7| List languages &f/language list"
+  select: "%prefix% &aYour language was changed to&f: English&7(&3EEUU&7)&f."
+  test: "Language test message: United States English"
+  testlist:
+    - "test"
+    - "list us"

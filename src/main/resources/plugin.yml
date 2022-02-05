@@ -1,0 +1,19 @@
+name: LanguagepluginV1
+version: '${project.version}'
+main: com.github.happyrogelio7.languagepluginv1.LanguagepluginV1
+load: STARTUP
+authors: [ HappyRogelio7 ]
+description: Languages plugin V1 by HappyRogelio7
+website: https://github.com/HappyRogelio7/LanguagepluginV1
+commands:
+  language:
+    aliases:
+      - idioma
+      - lang
+    usage: <command>
+
+  setlanguage:
+    aliases:
+      - setlang
+      - setidioma
+    usage: <command> <language>

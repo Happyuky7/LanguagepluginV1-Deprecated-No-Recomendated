@@ -1,0 +1,27 @@
+data-options:
+  data-type: YAML
+  yaml-options:
+    yaml-enable: true
+  mysql-options:
+    mysql-enable: false
+    mysql-host: "localhost"
+    mysql-port: 3306
+    mysql-user: root
+    mysql-password: 'pass1234'
+    mysql-driver: drive.mysql.org
+  mongodb-options:
+    mongodb-enable: false
+    mongodb-type: uri
+    mongodb-enable-uri: true
+    mongodb-uri: "localhost:27017"
+    mongodb-enable-data: false
+    mongodb-host: "localhost"
+    mongodb-port: 27017
+    mongodb-user: root
+    mongodb-password: 'pass1234'
+
+options:
+  join-options:
+    join-enable: false
+    join-default: EN_us
+  options: "uwu"
